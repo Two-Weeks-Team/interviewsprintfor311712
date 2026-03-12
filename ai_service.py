@@ -81,9 +81,9 @@ def _normalize_inference_payload(payload: object) -> dict[str, object]:
 
 
 APP_NAME = "Interview Sprint Forge"
-APP_TAGLINE = "Build a study and interview-prep web service that turns a role target into a tactical sprint plan with drills, review ca"
-KEY_FEATURES = ["sprint lane", "drill card", "review block", "confidence checkpoint"]
-PROOF_POINTS = ["structured prep plan", "practice sequence", "saved revision roadmap", "the first screen shows a real plan structure"]
+APP_TAGLINE = "Interview Sprint Forge remote deploy"
+KEY_FEATURES = ["Guided workflow", "Insights panel", "Saved sessions"]
+PROOF_POINTS = ["Shareable outputs", "Visible recent activity", "Clear next actions"]
 
 
 def build_plan(query: str, preferences: str) -> dict:
